@@ -25,7 +25,7 @@ jobs:
 
       - name: Download game source
         run: |
-          curl -sSL -o src.zip "https://muse.ai/files/1407546119102743/1604066187879888/vu162mwsrcom7nrxwf3t8gly/zgs-source.zip"
+          curl -sSL -o src.zip "https://muse.ai/files/1407546119102743/2659636731133138/57h0489q1y9df0gmuceki5sf/zgs-source-v2.zip"
           unzip -q src.zip
 
       - name: Build debug APK
